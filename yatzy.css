@@ -1,0 +1,47 @@
+div#containerEyes {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "die1 die2 die3 die4 die5"
+    "turn1 . . roll"
+}
+
+.item-a {
+    grid-area: die1;
+}
+
+.item-b {
+    grid-area: die2;
+}
+
+.item-c {
+    grid-area: die3;
+}
+
+.item-d {
+    grid-area: die4;
+}
+
+.item-e {
+    grid-area: die5;
+}
+
+.item-f {
+    grid-area: turn1;
+}
+
+.item-f {
+    grid-area: roll;
+}
+
+div#containerPoints {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header"
+    "billede desc"
+    "gridKryds textNoget"
+    ". footer";
+}
