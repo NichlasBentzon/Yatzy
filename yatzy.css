@@ -1,10 +1,13 @@
 div#containerBig {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "upperGrid"
-    "lowerGrid"
+    "upperGrid ."
+    "lowerGrid .";
+    background: linear-gradient(to bottom right, #ff7e5f, #feb47b); /* Example gradient */
+    height: 100vh; /* Ensures it takes up the entire viewport height */
+    width: 50vh;
 }
 
 .upperGrid {
@@ -16,12 +19,17 @@ div#containerBig {
 }
 
 div#containerEyes {
+    grid-area: upperGrid;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
     "die1 die2 die3 die4 die5"
     "turn1 . . . roll";
+    border: 2px solid black;
+    padding: 10px;
+    margin: 30px;
+    margin-bottom: 5px;
 }
 
 .die1 {
@@ -53,6 +61,7 @@ div#containerEyes {
 }
 
 div#containerPoints {
+    grid-area: lowerGrid;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -72,6 +81,10 @@ div#containerPoints {
     "largeStraight . . ."
     "chance . . ."
     "yatzy . . total";
+    border: 2px solid black;
+    padding: 10px;
+    margin: 30px;
+    margin-top: 5px;
 }
 
 .oneS {
