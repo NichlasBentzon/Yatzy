@@ -1,43 +1,43 @@
 div#containerEyes {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 3fr;
     grid-template-rows: auto;
     grid-template-areas: 
     "die1 die2 die3 die4 die5"
     "turn1 . . roll"
 }
 
-.item-a {
+.item-die1 {
     grid-area: die1;
 }
 
-.item-b {
+.item-die2 {
     grid-area: die2;
 }
 
-.item-c {
+.item-die3 {
     grid-area: die3;
 }
 
-.item-d {
+.item-die4 {
     grid-area: die4;
 }
 
-.item-e {
+.item-die5 {
     grid-area: die5;
 }
 
-.item-f {
+.item-turn1 {
     grid-area: turn1;
 }
 
-.item-f {
+.item-turn2 {
     grid-area: roll;
 }
 
 div#containerPoints {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
     "header header"
