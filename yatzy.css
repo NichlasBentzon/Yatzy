@@ -1,37 +1,37 @@
 div#containerEyes {
     display: grid;
-    grid-template-columns: 3fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
     "die1 die2 die3 die4 die5"
-    "turn1 . . roll"
+    "turn1 . . . roll"
 }
 
-.item-die1 {
+.die1 {
     grid-area: die1;
 }
 
-.item-die2 {
+.die2 {
     grid-area: die2;
 }
 
-.item-die3 {
+.die3 {
     grid-area: die3;
 }
 
-.item-die4 {
+.die4 {
     grid-area: die4;
 }
 
-.item-die5 {
+.die5 {
     grid-area: die5;
 }
 
-.item-turn1 {
+.turn1 {
     grid-area: turn1;
 }
 
-.item-roll {
+.roll {
     grid-area: roll;
 }
 
