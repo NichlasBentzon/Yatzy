@@ -1,5 +1,14 @@
 div#containerEyes {
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "die1 die2 die3 die4 die5"
+    "turn1 . . . roll"
+}
+
+div#containerEyes {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
@@ -57,71 +66,71 @@ div#containerPoints {
     "yatzy . . total";
 }
 
-.item-a {
+.oneS {
     grid-area: oneS;
 }
 
-.item-b {
+.twoS {
     grid-area: twoS;
 }
 
-.item-c {
+.threeS {
     grid-area: threeS;
 }
 
-.item-d {
+.fourS {
     grid-area: fourS;
 }
 
-.item-e {
+.fiveS {
     grid-area: fiveS;
 }
 
-.item-f {
+.sixS {
     grid-area: sixS;
 }
 
-.item-g {
+.onePair {
     grid-area: onePair;
 }
 
-.item-h {
+.twoPair {
     grid-area: twoPair;
 }
 
-.item-i {
+.threeSame {
     grid-area: threeSame;
 }
 
-.item-j {
+.fourSame {
     grid-area: fourSame;
 }
 
-.item-k {
+.fullHouse {
     grid-area: fullHouse;
 }
 
-.item-l {
+.smallStraight {
     grid-area: smallStraight;
 }
 
-.item-m {
+.largeStraight {
     grid-area: largeStraight;
 }
 
-.item-n {
+.chance {
     grid-area: chance;
 }
 
-.item-o {
+.yatzy {
     grid-area: yatzy;
 }
 
-.item-sum {
+.sum {
     grid-area: sum;
 }
 
-.item-bonus {
+.bonus {
     grid-area: bonus;
 }
 
