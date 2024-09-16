@@ -40,14 +40,14 @@ div#containerPoints {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "a . . ."
-    "b . . ."
-    "c . . ."
-    "d . . ."
-    "e . . ."
-    "f . sum bonus"
-    "g . . ."
-    "h . . ."
+    "item-a . . ."
+    "item-b . . ."
+    "item-c . . ."
+    "item-d . . ."
+    "item-e . . ."
+    "item-f . sum bonus"
+    "item-g . . ."
+    "item-h . . ."
     "i . . ."
     "j . . ."
     "k . . ."
