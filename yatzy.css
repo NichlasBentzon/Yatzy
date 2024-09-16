@@ -31,7 +31,7 @@ div#containerEyes {
     grid-area: turn1;
 }
 
-.item-turn2 {
+.item-roll {
     grid-area: roll;
 }
 
@@ -40,8 +40,92 @@ div#containerPoints {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "header header"
-    "billede desc"
-    "gridKryds textNoget"
-    ". footer";
+    "a . . ."
+    "b . . ."
+    "c . . ."
+    "d . . ."
+    "e . . ."
+    "f . sum bonus"
+    "g . . ."
+    "h . . ."
+    "i . . ."
+    "j . . ."
+    "k . . ."
+    "l . . ."
+    "m . . ."
+    "n . . ."
+    "o . . total"
+    ;
+}
+
+.item-a {
+    grid-area: 1-s;
+}
+
+.item-b {
+    grid-area: 2-s;
+}
+
+.item-c {
+    grid-area: 3-s;
+}
+
+.item-d {
+    grid-area: 4-s;
+}
+
+.item-e {
+    grid-area: 5-s;
+}
+
+.item-f {
+    grid-area: 6-s;
+}
+
+.item-g {
+    grid-area: onePair;
+}
+
+.item-h {
+    grid-area: twoPair;
+}
+
+.item-i {
+    grid-area: threeSame;
+}
+
+.item-j {
+    grid-area: fourSame;
+}
+
+.item-k {
+    grid-area: fullHouse;
+}
+
+.item-l {
+    grid-area: smallStraight;
+}
+
+.item-m {
+    grid-area: largeStraight;
+}
+
+.item-n {
+    grid-area: chance;
+}
+
+.item-o {
+    grid-area: yatzy;
+}
+
+.item-sum {
+    grid-area: sum;
+}
+
+.item-bonus {
+    grid-area: bonus;
+}
+
+.item-total {
+    grid-area: total;
 }
