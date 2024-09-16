@@ -1,10 +1,18 @@
-div#containerEyes {
+div#containerBig {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "die1 die2 die3 die4 die5"
-    "turn1 . . . roll"
+    "upperGrid"
+    "lowerGrid"
+}
+
+.upperGrid {
+    grid-area: upperGrid
+}
+
+.lowerGrid {
+    grid-area: lowerGrid
 }
 
 div#containerEyes {
@@ -13,7 +21,7 @@ div#containerEyes {
     grid-template-rows: auto;
     grid-template-areas: 
     "die1 die2 die3 die4 die5"
-    "turn1 . . . roll"
+    "turn1 . . . roll";
 }
 
 .die1 {
