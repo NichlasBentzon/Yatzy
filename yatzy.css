@@ -46,28 +46,36 @@ div#containerEyes {
 
 div#containerPoints {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "oneS . . ."
-    "twoS . . ."
-    "threeS . . ."
-    "fourS . . ."
-    "fiveS . . ."
-    "sixS . sum bonus"
-    "onePair . . ."
-    "twoPair . . ."
-    "threeSame . . ."
-    "fourSame . . ."
-    "fullHouse . . ."
-    "smallStraight . . ."
-    "largeStraight . . ."
-    "chance . . ."
-    "yatzy . . total";
+    "oneS oneSBox . . . ."
+    "twoS twoSBox . . . ."
+    "threeS threeSBox . . . ."
+    "fourS fourSBox . . . ."
+    "fiveS fiveSBox . . . ."
+    "sixS sixSBox sum sumBox bonus bonusBox"
+    "onePair onePairBox . . . ."
+    "twoPair twoPairBox . . . ."
+    "threeSame threeSameBox . . . ."
+    "fourSame fourSameBox . . . ."
+    "fullHouse fullHouseBox . . . ."
+    "smallStraight smallStraightBox . . . ."
+    "largeStraight largeStraightBox . . . ."
+    "chance chanceBox . . . ."
+    "yatzy yatzyBox . . total totalBox";
 }
 
 .oneS {
     grid-area: oneS;
+}
+
+.oneSBox {
+    grid-area: oneSBox;
+}
+
+.twoSBox {
+    grid-area: twoSBox;
 }
 
 .twoS {
@@ -78,62 +86,133 @@ div#containerPoints {
     grid-area: threeS;
 }
 
+.threeSBox{
+    grid-area: threeSBox;
+}
+
 .fourS {
     grid-area: fourS;
 }
+
+.fourSBox{
+    grid-area: fourSBox;
+}
+
 
 .fiveS {
     grid-area: fiveS;
 }
 
+.fiveSBox{
+    grid-area: fiveSBox;
+}
+
+
 .sixS {
     grid-area: sixS;
 }
+
+.sixSBox{
+    grid-area: sixSBox;
+}
+
 
 .onePair {
     grid-area: onePair;
 }
 
+.onePairBox{
+    grid-area: onePairBox;
+}
+
+
 .twoPair {
     grid-area: twoPair;
 }
+
+.twoPairBox{
+    grid-area: twoPairBox;
+}
+
 
 .threeSame {
     grid-area: threeSame;
 }
 
+.threeSameBox{
+    grid-area: threeSameBox;
+}
+
+
 .fourSame {
     grid-area: fourSame;
+}
+
+.fourSameBox {
+    grid-area: fourSameBox;
 }
 
 .fullHouse {
     grid-area: fullHouse;
 }
 
+.fullHouseBox {
+    grid-area: fullHouseBox;
+}
+
 .smallStraight {
     grid-area: smallStraight;
+}
+
+.smallStraightBox {
+    grid-area: smallStraightBox;
 }
 
 .largeStraight {
     grid-area: largeStraight;
 }
 
+.largeStraightBox {
+    grid-area: largeStraightBox;
+}
+
 .chance {
     grid-area: chance;
+}
+
+.chanceBox {
+    grid-area: chanceBox;
 }
 
 .yatzy {
     grid-area: yatzy;
 }
 
+.yatzyBox {
+    grid-area: yatzyBox;
+}
+
+
 .sum {
     grid-area: sum;
+}
+
+.sumBox {
+    grid-area: sumBox;
 }
 
 .bonus {
     grid-area: bonus;
 }
 
-.item-total {
+.bonusBox {
+    grid-area: bonusBox;
+}
+
+.total {
     grid-area: total;
+}
+
+.totalBox {
+    grid-area: totalBox;
 }
