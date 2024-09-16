@@ -31,7 +31,7 @@ div#containerEyes {
     grid-area: turn1;
 }
 
-.roll {
+#roll {
     grid-area: roll;
 }
 
@@ -40,46 +40,45 @@ div#containerPoints {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "a . . ."
-    "b . . ."
-    "c . . ."
-    "d . . ."
-    "e . . ."
-    "f . sum bonus"
-    "g . . ."
-    "h . . ."
-    "i . . ."
-    "j . . ."
-    "k . . ."
-    "l . . ."
-    "m . . ."
-    "n . . ."
-    "o . . total"
-    ;
+    "oneS . . ."
+    "twoS . . ."
+    "threeS . . ."
+    "fourS . . ."
+    "fiveS . . ."
+    "sixS . sum bonus"
+    "onePair . . ."
+    "twoPair . . ."
+    "threeSame . . ."
+    "fourSame . . ."
+    "fullHouse . . ."
+    "smallStraight . . ."
+    "largeStraight . . ."
+    "chance . . ."
+    "yatzy . . total";
 }
 
 .item-a {
-    grid-area: 1-s;
+    grid-area: oneS;
 }
 
 .item-b {
-    grid-area: 2-s;
+    grid-area: twoS;
 }
 
 .item-c {
-    grid-area: 3-s;
+    grid-area: threeS;
 }
 
 .item-d {
-    grid-area: 4-s;
+    grid-area: fourS;
 }
 
 .item-e {
-    grid-area: 5-s;
+    grid-area: fiveS;
 }
 
 .item-f {
-    grid-area: 6-s;
+    grid-area: sixS;
 }
 
 .item-g {
