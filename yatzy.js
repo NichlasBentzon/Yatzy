@@ -6,7 +6,7 @@ function getValues() {
 }
 
 function setValues(intArray) {
-    values = array
+    values = intArray
 }
 
 function getThrowCounter() {
