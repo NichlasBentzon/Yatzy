@@ -168,3 +168,7 @@ function yatzyPoints() {
     }
     return sum;
 }
+
+function btnRollAction() {
+// TODO
+}
